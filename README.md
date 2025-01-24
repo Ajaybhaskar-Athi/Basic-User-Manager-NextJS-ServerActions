@@ -3,7 +3,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 Here’s a **README.md** template for your Basic User Manager project, including placeholders for images and the tech stack you’ve used:
 
-```markdown
 # Basic User Manager NextJS (Server Actions)
 
 ## Overview
