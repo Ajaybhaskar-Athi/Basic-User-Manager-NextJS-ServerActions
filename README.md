@@ -1,20 +1,86 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+Here’s a **README.md** template for your Basic User Manager project, including placeholders for images and the tech stack you’ve used:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+```markdown
+# Basic User Manager NextJS (Server Actions)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
+This is a basic user management system built with **Next.js** (13+), leveraging **Server Actions** and **MongoDB**. It provides functionality to add, edit, delete, and display user details such as name, last name, email, and address.
+
+---
+
+## Features
+- Add new users with their details.
+- Edit existing user information.
+- Delete users from the database.
+- Display all users with their details.
+- Built entirely using **Server Actions** without relying on API routes.
+
+---
+
+## Tech Stack
+- **Frontend**: Next.js (13+), Tailwind CSS, ShadCN (for UI components)
+- **Backend**: Server Actions (Next.js)
+- **Database**: MongoDB
+- **Validation**: JOI for validating user data
+
+---
+
+## Screenshots
+
+### Home Page
+Displays all the users stored in the database.
+![Home Page](./images/home.png)
+
+### Add User
+Form to add a new user with fields for name, last name, email, and address.
+![Add User](./images/add.png)
+
+### Edit User
+Form prefilled with the selected user’s details for easy editing.
+![Edit User](./images/edit.png)
+
+---
+
+
+## Usage
+1. **Add User**: Click on the "Add User" button and fill out the form to create a new user.
+2. **Edit User**: Click on the "Edit" button beside a user to update their details.
+3. **Delete User**: Click on the "Delete" button beside a user to remove them from the database.
+
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ajaybhaskar-Athi/Basic-User-Manager-NextJS-ServerActions.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd your-repository
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Create a `.env.local` file and add your MongoDB connection string:
+   ```env
+   MONGODB_URI=your_mongodb_connection_string
+   ```
+
+5. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+6. Open your browser and navigate to `http://localhost:3000`.
+
+
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
