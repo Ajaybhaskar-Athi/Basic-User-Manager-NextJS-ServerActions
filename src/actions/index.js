@@ -4,11 +4,6 @@
  /*
  This is for Theory folder 
 
- export const fetchListOfProducts=async()=>{
-    const res=await fetch('https://dummyjson.com/products');
-    const data=await res.json();
-    return data?.products;
-}
 
 */
 
@@ -20,6 +15,13 @@ import { NextResponse } from "next/server";
 import Joi from "joi";
 import User from "@/models/User";
 import { revalidatePath } from "next/cache";
+
+
+export const fetchListOfProducts=async()=>{
+  const res=await fetch('https://dummyjson.com/products');
+  const data=await res.json();
+  return data?.products;
+}
 
 
 // 1.   add new user action
